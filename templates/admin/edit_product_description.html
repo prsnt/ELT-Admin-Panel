@@ -1,0 +1,12 @@
+<!-- templates/admin/edit_country.html -->
+
+{% extends 'admin/model/edit.html' %}
+
+{% block tail_js %}
+    {{ super() }}
+    <script>
+        // Specify the widget as a TextArea for the 'description' field
+        var descriptionField = document.getElementById("Description_of_technology");
+        descriptionField.setAttribute("type", "textarea");
+    </script>
+</script>

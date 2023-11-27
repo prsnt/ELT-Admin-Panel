@@ -1,0 +1,11 @@
+/* Set the container to use the full width of the screen */
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+
+/* Expand the content area */
+#content {
+    max-width: 100%;
+}
