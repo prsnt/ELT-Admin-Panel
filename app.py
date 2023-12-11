@@ -93,7 +93,7 @@ class FreePaidFilter(FilterEqual):
 
 
 def create_app():
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://prashant:Prsnt%40151993@localhost:3306/test_db'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://prashant:pwd%40123@localhost:3306/elt_db'
     secret_key = secrets.token_hex(32)
     # Set the secret key
     app.config['SECRET_KEY'] = secret_key
