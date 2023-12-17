@@ -1,7 +1,3 @@
-Sure, here's a README file content based on the provided code:
-
----
-
 # Admin Panel Project (Python Flask-based)
 
 This repository contains the source code for an Admin Panel developed using Python Flask. The Admin Panel offers an interface for managing various functionalities within the system.
