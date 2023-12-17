@@ -35,12 +35,6 @@ To run the Admin Panel locally, follow these steps:
 
 ## Database Setup
 
-Certainly! Here's an updated section for your README file:
-
----
-
-## Database Setup
-
 The necessary database file for this project, named `elt_demo.sql`, is located in the `/database` directory of this repository. This file contains the required tables and initial data, including user information, to get started with the application.
 
 ### Importing the Database
